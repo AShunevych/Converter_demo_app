@@ -19,4 +19,4 @@ jobs:
         with:
           java-version: 11
       - name: Ktlint
-        run: bash ./gradlew ktlint
+        run: bash ./gradlew ktlintAndroidTestSourceSetCheck
