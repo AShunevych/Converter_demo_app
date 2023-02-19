@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b1b1b</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="navigationBarColor">#1b1b1b</color>
+    <color name= "colorBorders">#efefef</color>
+    <color name="backgroundColor">#121212</color>
+    <color name="vectorColor">#efefef</color>
+    <color name="flareColor">#efefef</color>
+    <color name="colorAccent">#efefef</color>
+    <color name="transparentOne">#0000</color>
+    <color name="colorDrawableLight">#00000000 </color>
+    <color name="colorTabSwitch">#689f38</color>
+    <color name="colorClearButton">#870000</color>
+    <color name="tableHeaderColor">#121212</color>
+    <color name="rectangleSolid">#424242</color>
+    <color name="supportColor">#689f38</color>
+
+</resources>

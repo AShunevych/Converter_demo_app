@@ -1,0 +1,72 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.example.converter_demo_app'
+    compileSdk 32
+
+    defaultConfig {
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+        }
+        applicationId "com.example.converter_demo_app"
+        minSdk 30
+        compileSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    compileOptions{
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        buildFeatures {
+            viewBinding true
+        }
+    }
+    buildToolsVersion '30.0.3'
+}
+
+dependencies {
+
+    //base
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    //noinspection GradleDependency
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    //noinspection GradleDependency
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //noinspection GradleDependency
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+    //Other
+    implementation("org.mariuszgromada.math:MathParser.org-mXparser:5.2.1")
+    implementation 'com.github.AShunevych:Conversion-Library-Android:0.1.4'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    //Test
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'io.github.kakaocup:kakao:3.1.0'
+    androidTestImplementation('com.adevinta.android:barista:4.2.0') {
+        exclude group: 'org.jetbrains.kotlin'
+    }
+    implementation 'androidx.test.ext:junit-ktx:1.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    implementation "androidx.multidex:multidex:$multidex_version"
+}

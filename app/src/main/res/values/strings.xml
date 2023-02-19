@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">UniConverter</string>
+
+    <!-- Navigate strings -->
+    <string name="mass_button">Weight</string>
+    <string name="area_button">Area</string>
+    <string name="time_button">Time</string>
+    <string name="distance_button">Length</string>
+    <string name="volume_button">Volume</string>
+    <string name="temperature_button">Temperature</string>
+    <string name="force_button">Force</string>
+    <string name="calculator_button">Calculator</string>
+    <string name="currency_button">Currency</string>
+    <string name="speed_button">Speed</string>
+    <string name="decScienceButton">E-notation/Decimal</string>
+    <string name="circleSphere_button">Circle/Sphere </string>
+    <string name="theme">Day/Night</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <!-- Navigate strings -->
+
+    <string name="switchKeyboard">Keyboard</string>
+    <string name="clear_button">Clear</string>
+
+    <!-- Numbers buttons strings -->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="dzero">00</string>
+    <string name="decimal">.</string>
+    <!-- Numbers buttons strings -->
+
+    <string name="multiply">*</string>
+    <string name="divide">÷</string>
+    <string name="divide_symbol">/</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="equal">=</string>
+    <string name="square_root">√</string>
+    <string name="Square">n²</string>
+    <string name="Exponent">^</string>
+    <string name="logStr">log</string>
+    <string name="percent">%</string>
+    <string name="clear">C</string>
+    <string name="brackets">( )</string>
+    <string name="rightBracket">)</string>
+    <string name="leftBracket">(</string>
+
+    <string name="cir">CIRCLE</string>
+    <string name="sph">SPHERE</string>
+    <string name="hemi">HEMI-SPHERE</string>
+
+    <string name="Sett">Settings</string>
+    <string name="pipe">NPS to Diameter </string>
+
+    <string name="api_info">Currency API provided by </string>
+    <string name="calc_info">Calculator parser provided by </string>
+
+    <string name="param">Parameter</string>
+    <string name="radius">Radius</string>
+    <string name="diam">Diameter</string>
+    <string name="circ">Circumference</string>
+    <string name="sq">Area</string>
+    <string name="volumesph">Volume</string>
+
+    <string name="top2">²</string>
+    <string name="top3">³</string>
+
+    <string name="toastMessage">Enter value</string>
+    <string name="keyboardOn">Keyboard + buttons</string>
+    <string name="keyboardOff">Keyboard only</string>
+
+    <string name="SdiencelDec">E-notation→Decimal</string>
+    <string name="DecScience">Decimal→E-notation </string>
+    <string name="eplus">e+</string>
+    <string name="eminus">e-</string>
+    <string name="some">◄</string>
+
+
+    <string name="Version">Version:</string>
+
+    <string name="NPStoDN">Pipe NPS sizes</string>
+    <string name="nps">Nominal\nPipe Size\n(inch)</string>
+    <string name="DN">Nominal\nDiameter\n(mm)</string>
+    <string name="OD">Outer\ndiameter\n(inch/mm)</string>
+    
+    <string name="NoInternetConnection">No connection </string>
+    <string name="PostitiveInternetConnection">Connection established…downloading data</string>
+    <string name="SameDate">Data is up to date.Request declined</string>
+    <string name="UpdateSuccessful">Data update successful</string>
+    <string name= "maxNumberReached">Maximum length (15) reached</string>
+
+    <string name="USD">United States Dollar</string>
+    <string name="GBP">Great Britain Pound</string>
+    <string name="IDR">Indonesian rupiah</string>
+    <string name="PLN">Polish złoty</string>
+    <string name="NZD">New Zealand dollar</string>
+    <string name="RUB">Russian Ruble</string>
+
+</resources>
+

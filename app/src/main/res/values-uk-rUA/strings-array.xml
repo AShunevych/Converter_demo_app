@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="area">
+        <item>Міліметр квадратний</item>
+        <item>Сантіметр квадратний</item>
+        <item>Метр квадратний</item>
+        <item>Кілометр квадратний</item>
+        <item>Гектар</item>
+        <item>Міля квадратна</item>
+        <item>Ярд квадратний</item>
+        <item>Фут квадратний</item>
+        <item>Дюйм квадратний</item>
+        <item>Акр</item>
+    </string-array>
+
+    <string-array name="weight">
+        <item>Міліграм</item>
+        <item>Грам</item>
+        <item>Кілограм</item>
+        <item>Тонна</item>
+        <item>Гран</item>
+        <item>Унція</item>
+        <item>Фунт</item>
+        <item>Хандредвейт</item>
+        <item>Тонна(довга)</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Міліметр</item>
+        <item>Сантіметр</item>
+        <item>Метр</item>
+        <item>Кілометр</item>
+        <item>Дюйм</item>
+        <item>Фут</item>
+        <item>Ярд</item>
+        <item>Міля</item>
+    </string-array>
+
+    <string-array name="temperature_array">
+        <item>Цельсій</item>
+        <item>Кельвін</item>
+        <item>Ранкін</item>
+        <item>Фаренгейт</item>
+    </string-array>
+
+    <string-array name="time_array">
+        <item>Секунди</item>
+        <item>Хвилини</item>
+        <item>Година</item>
+        <item>День</item>
+        <item>Тиждень</item>
+        <item>Місяць</item>
+        <item>Рік</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>Міліметр кубічний</item>
+        <item>Сантіметр кубічний</item>
+        <item>Метр кубічний</item>
+        <item>Мілілітр</item>
+        <item>Літр</item>
+        <item>Унція рідка</item>
+        <item>Баррель(UK)</item>
+        <item>Джил</item>
+        <item>Пінта</item>
+        <item>Кварт</item>
+        <item>Галлон</item>
+    </string-array>
+
+    <string-array name="valuess">
+        <item>мм</item>
+        <item>см</item>
+        <item>м</item>
+        <item>ярд</item>
+        <item>фут</item>
+        <item>дюйм</item>
+    </string-array>
+
+    <string-array name="force">
+        <item>Міліньютон</item>
+        <item>Ньютон</item>
+        <item>Кілоньютон</item>
+        <item>Тонна-сила(метрична)</item>
+        <item>Грам-сила</item>
+        <item>Кілограм-сила</item>
+        <item>Понд</item>
+        <item>Фунт-сила</item>
+        <item>Унція-сила</item>
+        <item>Тонна-сила(довга)</item>
+        <item>Паундаль</item>
+    </string-array>
+
+    <string-array name="speed">
+        <item>Метрів/секунда</item>
+        <item>Метрів/година</item>
+        <item>Кілометр/секунда</item>
+        <item>Кілометр/година</item>
+        <item>Фут/секунда</item>
+        <item>Фут/година</item>
+        <item>Міль/година</item>
+        <item>Вузол</item>
+    </string-array>
+
+    <string-array name="circlesAndSpheres">
+        <item>Радіус кругу</item>
+        <item>Діаметер кругу</item>
+        <item>Окружність кругу</item>
+        <item>Площа кругу </item>
+        <item>Площа сфери</item>
+        <item>Об\'єм сфери</item>
+        <item>Площа напівсфери</item>
+        <item>Об\'єм напівсфери</item>
+    </string-array>
+
+    <string-array name="currency">
+        <item>Доллар США</item>
+        <item>Великобританський фунт</item>
+        <item>Індозенійська Рупія</item>
+        <item>Польский Злотий</item>
+        <item>Доллар НЗ</item>
+        <item>Рубль</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>@string/mass_button</item>
+        <item>@string/distance_button</item>
+        <item>@string/volume_button</item>
+        <item>@string/area_button</item>
+        <item>@string/force_button</item>
+        <item>@string/temperature_button</item>
+        <item>@string/time_button</item>
+        <item>@string/speed_button</item>
+    </string-array>
+
+</resources>

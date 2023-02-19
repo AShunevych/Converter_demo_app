@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weight">
+        <item>Milligram</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Tonne</item>
+        <item>Grain</item>
+        <item>Ounce</item>
+        <item>Pound</item>
+        <item>Hundredweight</item>
+        <item>Ton(long)</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>Millimetre</item>
+        <item>Centimetre</item>
+        <item>Metre</item>
+        <item>Kilometre</item>
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+    </string-array>
+
+    <string-array name="temperature_array">
+        <item>Celsius</item>
+        <item>Kelvin</item>
+        <item>Rankine</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>Square millimeter</item>
+        <item>Square centimeter</item>
+        <item>Square meter</item>
+        <item>Square kilometer</item>
+        <item>Hectare</item>
+        <item>Square mile</item>
+        <item>Square yard</item>
+        <item>Square feet</item>
+        <item>Square inch</item>
+        <item>Acre</item>
+    </string-array>
+
+    <string-array name="time_array">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>Cubic millimetre</item>
+        <item>Cubic centimetre</item>
+        <item>Cubic metre</item>
+        <item>Milliliter</item>
+        <item>Liter</item>
+        <item>Fluid ounce</item>
+        <item>Barrel(UK)</item>
+        <item>Gill</item>
+        <item>Pint</item>
+        <item>Quart</item>
+        <item>Gallon</item>
+    </string-array>
+
+    <string-array name="valuess">
+        <item>mm</item>
+        <item>cm</item>
+        <item>m</item>
+        <item>yd</item>
+        <item>ft</item>
+        <item>inch</item>
+    </string-array>
+
+    <string-array name="force">
+        <item>Millinewton</item>
+        <item>Newton</item>
+        <item>Kilonewton</item>
+        <item>Ton-force(metric)</item>
+        <item>Gram-force</item>
+        <item>Kilogram-force</item>
+        <item>Pond</item>
+        <item>Pound-force</item>
+        <item>Ounce-force</item>
+        <item>Ton-force (long)</item>
+        <item>Poundal</item>
+    </string-array>
+
+    <string-array name="speed">
+        <item>Meter/second</item>
+        <item>Meter/hour</item>
+        <item>Kilometer/second</item>
+        <item>Kilometer/hour</item>
+        <item>Foot/second</item>
+        <item>Foot/hour</item>
+        <item>Mile/hour</item>
+        <item>Knot</item>
+    </string-array>
+
+     <string-array name="circlesAndSpheres">
+         <item>Radius (circle)</item>
+        <item>Diameter (circle)</item>
+        <item>Circumference (circle)</item>
+         <item>Area (circle)</item>
+         <item>Area (sphere)</item>
+         <item>Volume (sphere)</item>
+         <item>Area (Hemisphere)</item>
+         <item>Volume (Hemisphere)</item>
+     </string-array>
+
+
+
+    <string-array name="currency">
+        <item>United States Dollar</item>
+        <item>Great Britain Pound</item>
+        <item>Indonesian rupiah</item>
+        <item>Polish złoty</item>
+        <item>New Zealand dollar</item>
+        <item>Russian Ruble</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>@string/mass_button</item>
+        <item>@string/distance_button</item>
+        <item>@string/volume_button</item>
+        <item>@string/area_button</item>
+        <item>@string/force_button</item>
+        <item>@string/temperature_button</item>
+        <item>@string/time_button</item>
+        <item>@string/speed_button</item>
+    </string-array>
+
+
+</resources>

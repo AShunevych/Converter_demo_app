@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/currency_calculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
+
+    <Button
+        android:id="@+id/currency_calculator"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:background="@drawable/currency_ico_layer"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/calculator_button"
+        app:layout_constraintEnd_toEndOf="@+id/button_eight"
+        app:layout_constraintStart_toStartOf="@+id/button_eight"
+        app:layout_constraintTop_toTopOf="@+id/calculator_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/calculator_button"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/calc_ico_layer"
+        app:layout_constraintBottom_toTopOf="@+id/but_seven"
+        app:layout_constraintEnd_toEndOf="@+id/but_seven"
+        app:layout_constraintStart_toStartOf="@+id/but_seven" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabBackground="@color/backgroundColor"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorTabSwitch"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="2dp" />
+
+    <Button
+        android:id="@+id/but_seven"
+        style="@style/newSW330"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/seven"
+        app:layout_constraintBottom_toTopOf="@+id/but_four"
+        app:layout_constraintEnd_toStartOf="@+id/button_eight" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <Button
+        android:id="@+id/but_four"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="16dp"
+        android:text="@string/four"
+        app:layout_constraintBottom_toTopOf="@+id/but_one"
+        app:layout_constraintEnd_toEndOf="@+id/but_seven"
+        app:layout_constraintStart_toStartOf="@+id/but_seven" />
+
+    <Button
+        android:id="@+id/but_one"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="16dp"
+        android:text="@string/one"
+        app:layout_constraintBottom_toTopOf="@+id/button_plus_minus"
+        app:layout_constraintEnd_toEndOf="@+id/but_four"
+        app:layout_constraintStart_toStartOf="@+id/but_four" />
+
+    <Button
+        android:id="@+id/button_plus_minus"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="-/+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/but_one"
+        app:layout_constraintStart_toStartOf="@+id/but_one" />
+
+    <Button
+        android:id="@+id/but_correctValue"
+        style="@style/supportSW330"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:text="⇽"
+        android:textAlignment="gravity"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/but_six"
+        app:layout_constraintStart_toEndOf="@+id/but_nine"
+        app:layout_constraintTop_toTopOf="@+id/but_nine" />
+
+    <Button
+        android:id="@+id/button_eight"
+        style="@style/newSW330"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="12dp"
+        android:text="@string/eight"
+        app:layout_constraintBottom_toBottomOf="@+id/but_seven"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/but_seven" />
+
+    <Button
+        android:id="@+id/but_five"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/five"
+        app:layout_constraintEnd_toEndOf="@+id/button_eight"
+        app:layout_constraintStart_toStartOf="@+id/button_eight"
+        app:layout_constraintTop_toTopOf="@+id/but_four" />
+
+    <Button
+        android:id="@+id/but_two"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/two"
+        app:layout_constraintBottom_toBottomOf="@+id/but_one"
+        app:layout_constraintEnd_toEndOf="@+id/but_five"
+        app:layout_constraintStart_toStartOf="@+id/but_five"
+        app:layout_constraintTop_toTopOf="@+id/but_one" />
+
+    <Button
+        android:id="@+id/button_zero"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/zero"
+        app:layout_constraintBottom_toBottomOf="@+id/button_plus_minus"
+        app:layout_constraintEnd_toEndOf="@+id/but_two"
+        app:layout_constraintStart_toStartOf="@+id/but_two"
+        app:layout_constraintTop_toTopOf="@+id/button_plus_minus" />
+
+    <Button
+        android:id="@+id/but_nine"
+        style="@style/newSW330"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="12dp"
+        android:text="@string/nine"
+        app:layout_constraintBottom_toBottomOf="@+id/button_eight"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/button_eight"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/but_six"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/six"
+        app:layout_constraintBottom_toBottomOf="@+id/but_five"
+        app:layout_constraintEnd_toEndOf="@+id/but_nine"
+        app:layout_constraintStart_toStartOf="@+id/but_nine"
+        app:layout_constraintTop_toTopOf="@+id/but_five" />
+
+    <Button
+        android:id="@+id/but_three"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/three"
+        app:layout_constraintBottom_toBottomOf="@+id/but_two"
+        app:layout_constraintEnd_toEndOf="@+id/but_six"
+        app:layout_constraintStart_toStartOf="@+id/but_six"
+        app:layout_constraintTop_toTopOf="@+id/but_two" />
+
+    <Button
+        android:id="@+id/button_decimal"
+        style="@style/newSW330"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/decimal"
+        app:layout_constraintBottom_toBottomOf="@+id/button_zero"
+        app:layout_constraintEnd_toEndOf="@+id/but_three"
+        app:layout_constraintStart_toStartOf="@+id/but_three"
+        app:layout_constraintTop_toTopOf="@+id/button_zero" />
+
+    <Button
+        android:id="@+id/but_clear"
+        style="@style/supportSW330"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/clear"
+        android:textColor="#870000"
+        app:layout_constraintBottom_toBottomOf="@+id/button_decimal"
+        app:layout_constraintEnd_toEndOf="@+id/but_correctValue"
+        app:layout_constraintStart_toStartOf="@+id/but_correctValue"
+        app:layout_constraintTop_toTopOf="@+id/but_three" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

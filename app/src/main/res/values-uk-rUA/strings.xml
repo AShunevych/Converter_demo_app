@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UniConverter</string>
+
+    <!-- Navigate strings -->
+    <string name="mass_button">Вага</string>
+    <string name="area_button">Площа</string>
+    <string name="time_button">Час</string>
+    <string name="distance_button">Довжина</string>
+    <string name="volume_button">Об\'єм</string>
+    <string name="temperature_button">Температура</string>
+    <string name="force_button">Сила</string>
+    <string name="calculator_button">Калькулятор</string>
+    <string name="currency_button">Валюта</string>
+    <string name="speed_button">Швидкість</string>
+    <string name="decScienceButton">MEp/Десятковий</string>
+    <string name="circleSphere_button">Круг/Сфера </string>
+    <!-- Navigate strings -->
+
+    <string name="switchKeyboard">Клавіатура </string>
+    <string name="clear_button">Очистити</string>
+
+    <!-- Numbers buttons strings -->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="dzero">00</string>
+    <string name="decimal">.</string>
+    <!-- Numbers buttons strings -->
+
+    <string name="multiply">*</string>
+    <string name="divide">÷</string>
+    <string name="divide_symbol">/</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="equal">=</string>
+    <string name="square_root">√</string>
+    <string name="Square">n²</string>
+    <string name="Exponent">^</string>
+    <string name="logStr">log</string>
+    <string name="percent">%</string>
+    <string name="clear">C</string>
+    <string name="rightBracket">)</string>
+    <string name="leftBracket">(</string>
+    <string name="brackets">( )</string>
+
+    <string name="cir">КРУГ</string>
+    <string name="sph">СФЕРА</string>
+    <string name="hemi">НАПІВСФЕРА </string>
+
+
+    <string name="api_info"> API для валюти </string>
+    <string name="calc_info">Парсер калькулятора </string>
+
+    <string name="param">Параметер</string>
+    <string name="radius">Радіус</string>
+    <string name="diam">Діаметер</string>
+    <string name="circ">Окружність</string>
+    <string name="sq">Площа </string>
+    <string name="volumesph">Об\'єм</string>
+
+    <string name="top2">²</string>
+    <string name="top3">³</string>
+    <string name="some">◄</string>
+    <string name="toastMessage">Введіть значення</string>
+    <string name="keyboardOn">Режим вводу:Клавіатура та кнопки</string>
+    <string name="keyboardOff">Режим вводу:Клавіатура</string>
+    <string name="Sett">Налаштування</string>
+    <string name="pipe">Умовний прохід та діаметер </string>
+
+    <string name="SdiencelDec">MEp→Десятковий </string>
+    <string name="DecScience">Десятковий →MEp</string>
+    <string name="eplus">e+</string>
+    <string name="eminus">e-</string>
+    <string name="about">Інформація</string>
+    <string name="theme">День/ніч</string>
+    <string name="exit">Вихід</string>
+    <string name="cancel">Відмінити</string>
+    <string name="Version">Версія:</string>
+
+
+    <string name="nps">Номінальний\nрозмір труби\n(дюйм)</string>
+    <string name="DN">Номінальний\nдіаметр(мм)</string>
+    <string name="OD">Зовнішній\nдіаметр(дюйм/мм)</string>
+    <string name="NPStoDN">Таблиця розмірів труб</string>
+
+    <string name="NoInternetConnection">Немає з\'єднання.</string>
+    <string name="SameDate">Дані актуальні.</string>
+    <string name="UpdateSuccessful">Дані успішно оновлені.</string>
+    <string name="PostitiveInternetConnection">Встановлюю з\'єднання…завантажую дані</string>
+
+    <string name= "maxNumberReached">Досягнуто максимальна кількість (15) символів</string>
+    <string name="USD">Доллар США</string>
+    <string name="GBP">Великобританський фунт</string>
+    <string name="IDR">Індозенійська Рупія</string>
+    <string name="PLN">Польский Злотий</string>
+    <string name="NZD">Доллар НЗ</string>
+    <string name="RUB">Рубль</string>
+
+</resources>
