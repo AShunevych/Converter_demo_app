@@ -80,19 +80,19 @@ class ActivityMain : AppCompatActivity() {
     }
 
     private fun initOnClickListeners() {
-        postTextOnClick(model = keyboardModel,button = binding!!.butOne)
-        postTextOnClick(model = keyboardModel,button = binding!!.butTwo)
-        postTextOnClick(model = keyboardModel,button = binding!!.butThree)
-        postTextOnClick(model = keyboardModel,button = binding!!.butFour)
-        postTextOnClick(model = keyboardModel,button = binding!!.butFive)
-        postTextOnClick(model = keyboardModel,button = binding!!.butSix)
-        postTextOnClick(model = keyboardModel,button = binding!!.butSeven)
-        postTextOnClick(model = keyboardModel,button = binding!!.buttonEight)
-        postTextOnClick(model = keyboardModel,button = binding!!.butNine)
-        postTextOnClick(model = keyboardModel,button = binding!!.buttonPlusMinus)
-        postTextOnClick(model = keyboardModel,button = binding!!.butClear)
-        postTextOnClick(model = keyboardModel,button = binding!!.buttonDecimal)
-        postTextOnClick(model = keyboardModel,button = binding!!.butCorrectValue)
+        postTextOnClick(model = keyboardModel, button = binding!!.butOne)
+        postTextOnClick(model = keyboardModel, button = binding!!.butTwo)
+        postTextOnClick(model = keyboardModel, button = binding!!.butThree)
+        postTextOnClick(model = keyboardModel, button = binding!!.butFour)
+        postTextOnClick(model = keyboardModel, button = binding!!.butFive)
+        postTextOnClick(model = keyboardModel, button = binding!!.butSix)
+        postTextOnClick(model = keyboardModel, button = binding!!.butSeven)
+        postTextOnClick(model = keyboardModel, button = binding!!.buttonEight)
+        postTextOnClick(model = keyboardModel, button = binding!!.butNine)
+        postTextOnClick(model = keyboardModel, button = binding!!.buttonPlusMinus)
+        postTextOnClick(model = keyboardModel, button = binding!!.butClear)
+        postTextOnClick(model = keyboardModel, button = binding!!.buttonDecimal)
+        postTextOnClick(model = keyboardModel, button = binding!!.butCorrectValue)
 
         binding!!.calculatorButton.setOnClickListener {
             val intent = Intent(

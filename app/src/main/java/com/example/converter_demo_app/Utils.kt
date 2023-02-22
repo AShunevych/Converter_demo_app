@@ -126,13 +126,13 @@ object Utils {
             "Grain", "Гран" -> measurementUnit.text = resources.getString(R.string.unit_Gr)
             "Ounce", "Унція" -> measurementUnit.text = resources.getString(R.string.unit_Oz)
             "Pound", "Фунт" -> measurementUnit.text = resources.getString(R.string.unit_Lb)
-            "Hundredweight", "Хандредвейт" -> measurementUnit.text =
-                resources.getString(R.string.unit_Hw)
-            "Ton(long)", "Тонна(довга)" -> measurementUnit.text =
-                resources.getString(R.string.unit_Tl)
+            "Hundredweight", "Хандредвейт" ->
+                measurementUnit.text = resources.getString(R.string.unit_Hw)
+            "Ton(long)", "Тонна(довга)" ->
+                measurementUnit.text = resources.getString(R.string.unit_Tl)
             "Millimetre", "Міліметр" -> measurementUnit.text = resources.getString(R.string.unit_Mm)
-            "Centimetre", "Сантіметр" -> measurementUnit.text =
-                resources.getString(R.string.unit_Sm)
+            "Centimetre", "Сантіметр" ->
+                measurementUnit.text = resources.getString(R.string.unit_Sm)
             "Metre", "Метр" -> measurementUnit.text = resources.getString(R.string.unit_M)
             "Kilometre", "Кілометр" -> measurementUnit.text = resources.getString(R.string.unit_Km)
             "Inch", "Дюйм" -> measurementUnit.text = resources.getString(R.string.unit_In)
@@ -143,60 +143,40 @@ object Utils {
             "Kelvin", "Кельвін" -> measurementUnit.text = resources.getString(R.string.unit_k)
             "Rankine", "Ранкін" -> measurementUnit.text = resources.getString(R.string.unit_r)
             "Fahrenheit", "Фаренгейт" -> measurementUnit.text = resources.getString(R.string.unit_f)
-            "Square millimeter", "Міліметр квадратний" -> measurementUnit.text =
-                resources.getString(R.string.unit_Mm_Square)
-            "Square centimeter", "Сантіметр квадратний" -> measurementUnit.text =
-                resources.getString(R.string.unit_Cm_Square)
-            "Square meter", "Метр квадратний" -> measurementUnit.text =
-                resources.getString(R.string.unit_М_Square)
-            "Square kilometer", "Кілометр квадратний" -> measurementUnit.text =
-                resources.getString(R.string.unit_Km_Square)
+            "Square millimeter", "Міліметр квадратний" -> measurementUnit.text = resources.getString(R.string.unit_Mm_Square)
+            "Square centimeter", "Сантіметр квадратний" -> measurementUnit.text = resources.getString(R.string.unit_Cm_Square)
+            "Square meter", "Метр квадратний" -> measurementUnit.text = resources.getString(R.string.unit_М_Square)
+            "Square kilometer", "Кілометр квадратний" -> measurementUnit.text = resources.getString(R.string.unit_Km_Square)
             "Hectare", "Гектар" -> measurementUnit.text = resources.getString(R.string.unit_Ha)
-            "Square mile", "Міля квадратна" -> measurementUnit.text =
-                resources.getString(R.string.unit_Mi_Square)
-            "Square yard", "Ярд квадратний" -> measurementUnit.text =
-                resources.getString(R.string.unit_Yd_Square)
-            "Square feet", "Фут квадратний" -> measurementUnit.text =
-                resources.getString(R.string.unit_Ft_Square)
-            "Square inch", "Дюйм квадратний" -> measurementUnit.text =
-                resources.getString(R.string.unit_In_Square)
+            "Square mile", "Міля квадратна" -> measurementUnit.text = resources.getString(R.string.unit_Mi_Square)
+            "Square yard", "Ярд квадратний" -> measurementUnit.text = resources.getString(R.string.unit_Yd_Square)
+            "Square feet", "Фут квадратний" -> measurementUnit.text = resources.getString(R.string.unit_Ft_Square)
+            "Square inch", "Дюйм квадратний" -> measurementUnit.text = resources.getString(R.string.unit_In_Square)
             "Acre", "Акр" -> measurementUnit.text = resources.getString(R.string.unit_Ac)
-            "Seconds", "Секунди" -> measurementUnit.text =
-                resources.getString(R.string.unit_Seconds)
-            "Minutes", "Хвилини" -> measurementUnit.text =
-                resources.getString(R.string.unit_Minutes)
+            "Seconds", "Секунди" -> measurementUnit.text = resources.getString(R.string.unit_Seconds)
+            "Minutes", "Хвилини" -> measurementUnit.text = resources.getString(R.string.unit_Minutes)
             "Hour", "Година" -> measurementUnit.text = resources.getString(R.string.unit_Hour)
             "Day", "День" -> measurementUnit.text = resources.getString(R.string.unit_Day)
             "Week", "Тиждень" -> measurementUnit.text = resources.getString(R.string.unit_Week)
             "Month", "Місяц" -> measurementUnit.text = resources.getString(R.string.unit_Month)
             "Year", "Рік" -> measurementUnit.text = resources.getString(R.string.unit_Year)
-            "Cubic millimetre", "Міліметр кубічний" -> measurementUnit.text =
-                resources.getString(R.string.unit_Mm_Cubic)
-            "Cubic centimetre", "Сантіметр кубічний" -> measurementUnit.text =
-                resources.getString(R.string.unit_Cm_Cubic)
-            "Cubic metre", "Метр кубічний" ->
-                measurementUnit.text = resources.getString(R.string.unit_M_Cubic)
+            "Cubic millimetre", "Міліметр кубічний" -> measurementUnit.text = resources.getString(R.string.unit_Mm_Cubic)
+            "Cubic centimetre", "Сантіметр кубічний" -> measurementUnit.text = resources.getString(R.string.unit_Cm_Cubic)
+            "Cubic metre", "Метр кубічний" -> measurementUnit.text = resources.getString(R.string.unit_M_Cubic)
             "Milliliter", "Мілілітр" -> measurementUnit.text = resources.getString(R.string.unit_Ml)
             "Liter", "Літр" -> measurementUnit.text = resources.getString(R.string.unit_L)
-            "Fluid ounce", "Унція рідка" ->
-                measurementUnit.text = resources.getString(R.string.unit_Fl_oz)
-            "Barrel(UK)", "Баррель(UK)" ->
-                measurementUnit.text = resources.getString(R.string.unit_Bbl_uk)
+            "Fluid ounce", "Унція рідка" -> measurementUnit.text = resources.getString(R.string.unit_Fl_oz)
+            "Barrel(UK)", "Баррель(UK)" -> measurementUnit.text = resources.getString(R.string.unit_Bbl_uk)
             "Gill", "Джил" -> measurementUnit.text = resources.getString(R.string.unit_Gi)
             "Pint", "Пінта" -> measurementUnit.text = resources.getString(R.string.unit_Pt)
             "Quart", "Кварт" -> measurementUnit.text = resources.getString(R.string.unit_Qt)
             "Gallon", "Галлон" -> measurementUnit.text = resources.getString(R.string.unit_Gal)
-            "Millinewton", "Міліньютон" -> measurementUnit.text =
-                resources.getString(R.string.unit_Mn)
+            "Millinewton", "Міліньютон" -> measurementUnit.text = resources.getString(R.string.unit_Mn)
             "Newton", "Ньютон" -> measurementUnit.text = resources.getString(R.string.unit_N)
-            "Kilonewton", "Кілоньютон" -> measurementUnit.text =
-                resources.getString(R.string.unit_Kn)
-            "Ton-force(metric)", "Тонна-сила(метрична)" -> measurementUnit.text =
-                resources.getString(R.string.unit_Tf)
-            "Gram-force", "Грам-сила" -> measurementUnit.text =
-                resources.getString(R.string.unit_Gf)
-            "Kilogram-force", "Кілограм-сила" -> measurementUnit.text =
-                resources.getString(R.string.unit_Kgf)
+            "Kilonewton", "Кілоньютон" -> measurementUnit.text = resources.getString(R.string.unit_Kn)
+            "Ton-force(metric)", "Тонна-сила(метрична)" -> measurementUnit.text = resources.getString(R.string.unit_Tf)
+            "Gram-force", "Грам-сила" -> measurementUnit.text = resources.getString(R.string.unit_Gf)
+            "Kilogram-force", "Кілограм-сила" -> measurementUnit.text = resources.getString(R.string.unit_Kgf)
             "Pond", "Понд" -> measurementUnit.text = resources.getString(R.string.unit_P)
             "Pound-force", "Фунт-сила" -> measurementUnit.text = resources.getString(R.string.unit_Lbf)
             "Ounce-force", "Унція-сила" -> measurementUnit.text = resources.getString(R.string.unit_Ozf)
@@ -219,18 +199,12 @@ object Utils {
     ) {
         val resources = measurementUnit.resources
         when (spinnerTextValue) {
-            "United States Dollar", "Доллар США" -> measurementUnit.text =
-                resources.getString(R.string.unit_Usd)
-            "Great Britain Pound", "Великобританський фунт" -> measurementUnit.text =
-                resources.getString(R.string.unit_Gbp)
-            "Indonesian rupiah", "Індозенійська Рупія" -> measurementUnit.text =
-                resources.getString(R.string.unit_Ipr)
-            "Polish złoty", "Польский Злотий" -> measurementUnit.text =
-                resources.getString(R.string.unit_Pln)
-            "New Zealand dollar", "Доллар НЗ" -> measurementUnit.text =
-                resources.getString(R.string.unit_Nzd)
-            "Russian Ruble", "Рубль" -> measurementUnit.text =
-                resources.getString(R.string.unit_Rub)
+            "United States Dollar", "Доллар США" -> measurementUnit.text = resources.getString(R.string.unit_Usd)
+            "Great Britain Pound", "Великобританський фунт" -> measurementUnit.text = resources.getString(R.string.unit_Gbp)
+            "Indonesian rupiah", "Індозенійська Рупія" -> measurementUnit.text = resources.getString(R.string.unit_Ipr)
+            "Polish złoty", "Польский Злотий" -> measurementUnit.text = resources.getString(R.string.unit_Pln)
+            "New Zealand dollar", "Доллар НЗ" -> measurementUnit.text = resources.getString(R.string.unit_Nzd)
+            "Russian Ruble", "Рубль" -> measurementUnit.text = resources.getString(R.string.unit_Rub)
         }
     }
 

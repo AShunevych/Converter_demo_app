@@ -1,8 +1,8 @@
 package com.example.converter_demo_app.ui
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 
 class AppViewModel : ViewModel() {
     private val selected = MutableLiveData<Int>()

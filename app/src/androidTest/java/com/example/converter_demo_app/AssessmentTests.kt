@@ -14,12 +14,12 @@ class AssessmentTests {
     @get:Rule
     val activityRule = ActivityScenarioRule(ActivityMain::class.java)
 
+    // TODO fix and refactor code using Robot Pattern
     /**
      * Further code contains multiple error and mistakes
-     * Requirements: Code must be stable and run with minimum idlers as possible - Thread.sleep() e.t.c.
      * You are free to choose either to rewrite code  first and fix or vice versa
+     * Requirements: Code must be stable and run with minimum idlers as possible - Thread.sleep() e.t.c.
      */
-    // TODO fix and refactor code using Robot Pattern
     @Test
     fun test_create_simple_calculation() {
         Espresso.onView(ViewMatchers.withId(R.id.viewPager))
@@ -61,7 +61,6 @@ class AssessmentTests {
         Espresso.onView(ViewMatchers.withId(R.id.but_solve))
             .check(matches(ViewMatchers.withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)))
             .perform(ViewActions.click())
-
 
         // Result that you should have.
         Espresso.onView(ViewMatchers.withId(R.id.calcResult))
