@@ -23,7 +23,8 @@ open class ActivityConverter : Fragment() {
     private var binding: ConverterActivityBinding? = null
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
@@ -165,14 +166,12 @@ open class ActivityConverter : Fragment() {
     // set units of measurements for value
     private fun setUnitMeasurement() {
         Utils.measurementUnitsHandler(
-            Utils.getSpinnerValueString(
-                binding!!.spinnerValue
-            ), binding!!.valueUnit
+            Utils.getSpinnerValueString(binding!!.spinnerValue),
+            binding!!.valueUnit
         )
         Utils.measurementUnitsHandler(
-            Utils.getSpinnerValueString(
-                binding!!.spinnerResult
-            ), binding!!.resultUnit
+            Utils.getSpinnerValueString(binding!!.spinnerResult),
+            binding!!.resultUnit
         )
     }
 

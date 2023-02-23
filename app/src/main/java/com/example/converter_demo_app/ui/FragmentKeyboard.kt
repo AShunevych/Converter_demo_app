@@ -2,10 +2,10 @@ package com.example.converter_demo_app.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.ViewGroup
-import androidx.lifecycle.ViewModelProvider
 import android.view.View
+import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.example.converter_demo_app.Utils.postTextOnClick
 import com.example.converter_demo_app.databinding.CalculatorKeyboardBinding
 
