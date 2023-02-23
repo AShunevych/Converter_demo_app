@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.converter_demo_app.Utils.checkBrackets
 import com.example.converter_demo_app.Utils.clearView
 import com.example.converter_demo_app.Utils.readAndSolve
-import com.example.converter_demo_app.ui.AppViewModel
 import com.example.converter_demo_app.databinding.CalculatorActivityBinding
+import com.example.converter_demo_app.ui.AppViewModel
 
 class ActivityCalculator : AppCompatActivity() {
     private var binding: CalculatorActivityBinding? = null
@@ -44,9 +44,7 @@ class ActivityCalculator : AppCompatActivity() {
     }
 
     private fun getText(event: String?) {
-        if ((event == Utils.SYMBOL_BRACKETS) ||
-            (event == Utils.SYMBOL_SOLVE) ||
-            (event == Utils.SYMBOL_CLEAR)) {
+        if ((event == Utils.SYMBOL_BRACKETS) || (event == Utils.SYMBOL_SOLVE) || (event == Utils.SYMBOL_CLEAR)) {
             when (event) {
                 Utils.SYMBOL_BRACKETS -> checkBrackets(
                     valueEdit = binding!!.calcValue
