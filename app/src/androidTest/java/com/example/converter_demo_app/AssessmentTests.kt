@@ -1,10 +1,12 @@
 package com.example.converter_demo_app
 
 import androidx.test.espresso.Espresso
+import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
+import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import org.junit.Rule
 import org.junit.Test
@@ -22,8 +24,7 @@ class AssessmentTests {
      */
     @Test
     fun test_create_simple_calculation() {
-        Espresso.onView(ViewMatchers.withId(R.id.viewPager))
-            .check(matches(ViewMatchers.withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)))
+        onView(withId(R.id.viewPager)).check(matches(isDisplayed()))
 
         Espresso.onView(ViewMatchers.withId(R.id.calculator_button))
             .check(matches(ViewMatchers.withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)))
