@@ -22,16 +22,16 @@
         android:id="@+id/spinner_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:dropDownWidth="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/valueUnit" />
+        app:layout_constraintTop_toBottomOf="@+id/valueEdit" />
 
     <Spinner
         android:id="@+id/spinner_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:dropDownWidth="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,18 +43,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="@+id/valueEdit"
-        app:layout_constraintTop_toBottomOf="@+id/valueEdit"
+        app:layout_constraintTop_toTopOf="@+id/spinner_value"
         tools:text="bbl(UK)" />
 
     <TextView
         android:id="@+id/resultUnit"
         style="@style/converterAuxTextStyleValues_SubText"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/valueUnit"
-        app:layout_constraintStart_toStartOf="@+id/valueUnit"
-        app:layout_constraintTop_toBottomOf="@+id/resultView"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_result"
+        app:layout_constraintEnd_toEndOf="@+id/resultView"
+        app:layout_constraintTop_toTopOf="@+id/spinner_result"
         tools:text="bbl(UK)" />
 
     <EditText
@@ -65,24 +65,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:inputType="none"
         android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_result"
         tools:text="sometext" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resultUnit" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -90,6 +80,6 @@
         android:layout_height="wrap_content"
         android:foregroundGravity="center_vertical|center_horizontal"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_begin="151dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
